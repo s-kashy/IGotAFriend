@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "948380075988",
+    "firebase_url": "https://i-got-a-friend.firebaseio.com",
+    "project_id": "i-got-a-friend",
+    "storage_bucket": "i-got-a-friend.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:948380075988:android:bbe6409cf9bf25cf",
+        "android_client_info": {
+          "package_name": "com.example.mycomputer.igotafriend"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "948380075988-qnvo42imh9v2rm52gt5fir36196lo0bs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mycomputer.igotafriend",
+            "certificate_hash": "594f8a02dfec1d37dd9db160b5145c95533d1396"
+          }
+        },
+        {
+          "client_id": "948380075988-k26bahouc3pds8muk66ohbdfjmaequ5d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSiYfmmnd6UeJTTyvdp-Xoz_84wfrWj2A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "948380075988-k26bahouc3pds8muk66ohbdfjmaequ5d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

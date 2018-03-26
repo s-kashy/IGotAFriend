@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#909c41"
+    tools:context="com.example.mycomputer.igotafriend.activities.ChatActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/btnVister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/buttom"
+            android:text="I Am A Vister" />
+
+        <Button
+            android:id="@+id/btnLocal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+        android:background="@drawable/menu"
+            android:layout_weight="1"
+            android:text="I Am A Local" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvChat"
+        android:background="#4e5d6b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ListView>
+</LinearLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:background="#4e5d6b"
+    >
+
+
+
+
+    <TextView
+        android:id="@+id/textname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name :"
+        android:textColor="#0c0d0d"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/txName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="123"
+        android:textColor="#0c0d0d"
+        android:textSize="15sp"
+        android:layout_toRightOf="@id/textname"
+        android:layout_marginLeft="23dp"
+
+        />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rating :"
+        android:textColor="#0c0d0d"
+        android:textSize="15sp"
+        android:layout_below="@id/textname"/>
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        style="?android:attr/ratingBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:isIndicator="true"
+        android:numStars="5"
+        android:stepSize="0.01"
+        android:layout_toRightOf="@id/textView3"
+        android:layout_below="@id/textname"
+        android:paddingTop="2dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/txcr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView3"
+        android:text="Number of Critics :"
+        android:textColor="#0c0d0d"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/numOfCritecs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0c0d0d"
+        android:textSize="15sp"
+        android:text="123"
+        android:layout_below="@id/textView3"
+        android:layout_toRightOf="@id/txcr"
+        android:layout_marginLeft="20dp"/>
+
+
+
+</RelativeLayout>
+

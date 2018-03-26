@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">I Got A Friend</string>
+    <string name="lacal">visterUdi </string>
+    <string name="visterUdi"> new</string>
+    <string name="viewByLocal">viewByLocal</string>
+    <string name="newLocal">newLocal</string>
+    <string name="viewByVister">viewByVister</string>
+
+
+</resources>

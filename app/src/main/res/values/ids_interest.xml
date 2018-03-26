@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="localUdi">1</integer>
+    <integer name="visterUdi">2</integer>
+    <integer name="viewByLocal">3</integer>
+    <integer name="newLocal">4</integer>
+    <integer name="viewByVister">5</integer>
+
+</resources>
